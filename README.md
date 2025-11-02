@@ -35,18 +35,6 @@ A fully extensible maze generation and solving application with **interactive ga
 
 ## 🚀 Quick Start - Building Locally
 
-### Prerequisites
-
-Before you begin, make sure you have the following installed:
-
-- **Node.js** (version 18 or higher)
-  - Check version: `node --version`
-  - Download: [nodejs.org](https://nodejs.org/)
-- **npm** (comes with Node.js) or **yarn**
-  - Check version: `npm --version`
-- **Git** (optional, for cloning)
-  - Download: [git-scm.com](https://git-scm.com/)
-
 ### Step-by-Step Installation
 
 #### 1. Install Dependencies
@@ -126,30 +114,6 @@ npm run lint
 **Build fails?**
 - Clear Next.js cache: `rm -rf .next`
 - Run `npm run build` again
-
-### 🌐 Share with Others
-
-#### Option 1: Run Locally
-Share the project folder, and others can follow these same steps.
-
-#### Option 2: Deploy to Vercel (Free)
-
-1. Push code to GitHub
-2. Visit [vercel.com](https://vercel.com)
-3. Click "Import Project"
-4. Select your repository
-5. Click "Deploy"
-
-Your maze game will be live at: `https://your-project.vercel.app`
-
-#### Option 3: Build and Share Static Files
-
-```bash
-npm run build
-npm start
-```
-
-The app will run on your local network, accessible to others on the same WiFi.
 
 ## Project Structure
 
@@ -259,30 +223,6 @@ npm test gameLogic
 
 All tests should pass before deployment!
 
-## Deployment
-
-### Vercel (Recommended)
-
-1. Push your code to GitHub
-2. Import your repository on [Vercel](https://vercel.com)
-3. Vercel will automatically detect Next.js and deploy
-
-Or use the Vercel CLI:
-
-```bash
-npm install -g vercel
-vercel
-```
-
-### Other Platforms
-
-The app can be deployed to any platform that supports Next.js:
-- Netlify
-- Railway
-- AWS Amplify
-- Google Cloud Run
-- And more!
-
 ## 💻 Technologies
 
 - **Next.js 15** - React framework with App Router
@@ -291,23 +231,6 @@ The app can be deployed to any platform that supports Next.js:
 - **HTML5 Canvas** - High-performance maze rendering
 - **Jest 30** - Testing framework with JSDOM
 
-## 📖 Documentation
-
-- **README.md** (this file) - Setup and overview
-- **FEATURES.md** - Detailed feature guide and gameplay tips
-- Inline code comments throughout
-
-## 🤝 Contributing
-
-Contributions are welcome! Here's how:
-
-1. Fork the repository
-2. Create a feature branch (`git checkout -b feature/amazing-feature`)
-3. Make your changes
-4. Run tests (`npm test`)
-5. Commit changes (`git commit -m 'Add amazing feature'`)
-6. Push to branch (`git push origin feature/amazing-feature`)
-7. Open a Pull Request
 
 ## 📝 License
 
