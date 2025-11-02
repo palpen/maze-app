@@ -4,6 +4,8 @@ A fully extensible maze generation and solving application with **interactive ga
 
 ![Next.js](https://img.shields.io/badge/Next.js-15-black) ![TypeScript](https://img.shields.io/badge/TypeScript-5-blue) ![Tests](https://img.shields.io/badge/tests-passing-green)
 
+![Maze Game Screenshot](images/maze.png)
+
 ## ✨ Features
 
 ### Maze Generation Algorithms
