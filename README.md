@@ -247,6 +247,7 @@ Having issues? Check:
 ## 🎯 What's Next?
 
 Potential features to add:
+- [ ] Add a way to track progress and achievement
 - [ ] Touch/swipe controls for mobile
 - [ ] Multiplayer race mode
 - [ ] Leaderboard with localStorage
